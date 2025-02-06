@@ -1,0 +1,39 @@
+Serialization and Deserialization
+
+1. Write a Java program to serialize an object.
+2. Write a Java program to deserialize an object.
+3. What is the difference between Serializable and Externalizable?
+4. How do you customize serialization and deserialization using writeObject() and readObject()?
+5. Write a Java program to serialize a collection of objects.
+
+File Handling
+
+1. Write a Java program to read and write a text file.
+2. Write a Java program to read and write a binary file.
+3. How do you use BufferedReader and BufferedWriter for efficient file I/O?
+4. Write a Java program to copy a file.
+5. Write a Java program to delete a file.
+
+Exception Handling
+
+1. What is the difference between checked and unchecked exceptions?
+2. Write a Java program to handle exceptions using try-catch blocks.
+3. How do you use finally blocks to release resources?
+4. Write a Java program to throw a custom exception.
+5. How do you use exception chaining to handle nested exceptions?
+
+Intermediate Questions
+
+1. Write a Java program to serialize an object to a file and then deserialize it.
+2. Write a Java program to handle exceptions when reading and writing files.
+3. How do you use Java's built-in serialization mechanisms to serialize complex objects?
+4. Write a Java program to use try-with-resources statements for automatic resource management.
+5. How do you use Java's logging API to handle exceptions and log errors?
+
+More Intermediate Questions
+
+1. Write a Java program to use serialization to implement a simple caching mechanism.
+2. Write a Java program to handle exceptions when working with multiple threads.
+3. How do you use Java's built-in deserialization mechanisms to deserialize complex objects?
+4. Write a Java program to use Java's built-in file I/O mechanisms to read and write large files.
+5. How do you use Java's logging API to handle exceptions and log errors in a multi-threaded environment?

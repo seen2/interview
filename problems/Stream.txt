@@ -1,0 +1,65 @@
+Basic Stream Operations
+Create a stream of integers and print all even numbers.
+
+Use the map() function to convert a list of strings to uppercase.
+
+Filter a list of integers to find all numbers greater than 50.
+
+Use the sorted() method to sort a list of strings in alphabetical order.
+
+Find the sum of all elements in a list of integers using reduce().
+
+Intermediate Stream Operations
+Use flatMap() to flatten a list of lists into a single list.
+
+Group a list of strings by their length using Collectors.groupingBy().
+
+Find the maximum and minimum value in a list of integers using max() and min().
+
+Use distinct() to remove duplicate elements from a list of strings.
+
+Count the number of elements in a list that satisfy a given condition using filter() and count().
+
+Advanced Stream Operations
+Use Collectors.partitioningBy() to partition a list of integers into even and odd numbers.
+
+Concatenate two streams into a single stream.
+
+Use Collectors.joining() to join a list of strings into a single comma-separated string.
+
+Find the average of a list of integers using Collectors.averagingInt().
+
+Use Collectors.toMap() to convert a list of objects into a map.
+
+Numeric Streams
+Create an IntStream of numbers from 1 to 100 and calculate the sum.
+
+Use boxed() to convert an IntStream to a Stream<Integer>.
+
+Find the average of a list of doubles using DoubleStream.
+
+Generate a stream of random numbers using Random and limit it to 10 numbers.
+
+Use range() and rangeClosed() to create a stream of numbers between two values.
+
+Custom Objects and Streams
+Given a list of Employee objects, filter employees whose salary is greater than 50000.
+
+Sort a list of Employee objects by their name using Comparator and streams.
+
+Group a list of Employee objects by their department using Collectors.groupingBy().
+
+Find the employee with the highest salary using max() and Comparator.
+
+Use map() to extract a list of employee names from a list of Employee objects.
+
+Advanced Use Cases
+Use peek() to debug a stream pipeline and print intermediate results.
+
+Use Collectors.teeing() to perform two different reductions on a stream (e.g., sum and average).
+
+Use Stream.iterate() to generate an infinite stream of Fibonacci numbers and limit it to the first 10.
+
+Use Collectors.collectingAndThen() to perform an additional operation after collecting data (e.g., convert a list to an immutable list).
+
+Use Stream.generate() to create an infinite stream of random UUIDs and limit it to 5.

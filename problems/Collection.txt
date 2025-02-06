@@ -1,0 +1,38 @@
+Basic Questions
+
+1. Write a Java program to create an ArrayList and add elements to it.
+2. Write a Java method to iterate over a LinkedList.
+3. Write a Java program to create a HashSet and add elements to it.
+4. Write a Java method to check if an element exists in a TreeSet.
+5. Write a Java program to create a HashMap and add key-value pairs to it.
+6. Write a Java method to iterate over the keys of a TreeMap.
+7. Write a Java program to create a PriorityQueue and add elements to it.
+8. Write a Java method to remove an element from a Vector.
+9. Write a Java program to create a Stack and push/pop elements.
+10. Write a Java method to check if a collection is empty.
+
+Intermediate Questions
+
+1. Write a Java method to convert an ArrayList to a LinkedList.
+2. Write a Java program to create a HashSet from an array of elements.
+3. Write a Java method to find the intersection of two Sets.
+4. Write a Java program to create a TreeMap from a HashMap.
+5. Write a Java method to sort a List of custom objects.
+6. Write a Java program to create a PriorityQueue with a custom comparator.
+7. Write a Java method to remove duplicates from a List.
+8. Write a Java program to create a Stack from a Vector.
+9. Write a Java method to find the union of two Sets.
+10. Write a Java program to create a HashMap with a custom key.
+
+More Intermediate Questions
+
+1. Write a Java method to implement a LRU Cache using a LinkedHashMap.
+2. Write a Java program to create a graph using an adjacency list representation.
+3. Write a Java method to implement a queue using a LinkedList.
+4. Write a Java program to create a tree set from a list of elements.
+5. Write a Java method to find the maximum/minimum element in a collection.
+6. Write a Java program to create a hash table from a list of key-value pairs.
+7. Write a Java method to implement a stack using a Vector.
+8. Write a Java program to create a priority queue from a list of elements.
+9. Write a Java method to find the common elements between two collections.
+10. Write a Java program to create a map from a list of key-value pairs.

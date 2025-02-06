@@ -1,0 +1,175 @@
+String REGEX
+
+OOP
+
+Collection
+
+Stream API / lambda functions
+
+Exception
+
+Multithreading, Lock, transit, volatile, synchronized
+
+Serialization Deserialization
+
+DateTime API
+
+
+------------------------------------------------------------------------------------------------------------------------
+Filter and Sort: Given a list of integers, write a Java program using streams to filter out numbers greater than 10 and sort the remaining numbers in ascending order.
+Count Occurrences: Write a Java program that takes a string and counts the occurrence of each character using streams.
+Employee Salary: Given a list of employees with their names and salaries, write a program to find the employee with the highest salary using the Stream API.
+Group By: Write a Java program that groups a list of employees by their department and collects the names of employees in each department.
+Fibonacci Sequence: Generate the first 10 numbers of the Fibonacci sequence using Java streams.
+Palindrome Check: Write a method that checks if a given list of strings contains any palindromes using streams.
+Reduce Example: Given a list of integers, write a program to calculate the sum of all the integers using the reduce method of streams.
+Assume you  have list of employee find highest paid employee from each department
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Basic Level Coding Questions
+Reverse a String
+
+Write a function to reverse a given string.
+Input: "hello"
+Output: "olleh"
+Palindrome Check
+
+Write a function to check if a given string is a palindrome (reads the same forward and backward).
+Input: "racecar"
+Output: true
+Input: "hello"
+Output: false
+Find Maximum Element in an Array
+
+Write a function to find the maximum element in an unsorted array.
+Input: [1, 3, 7, 2, 5]
+Output: 7
+Count Vowels in a String
+
+Write a function to count the number of vowels (a, e, i, o, u) in a given string.
+Input: "hello world"
+Output: 3
+Find the First Non-Repeating Character
+
+Write a function that returns the first non-repeating character in a string.
+Input: "swiss"
+Output: "w"
+Sum of Two Numbers
+
+Write a function to check if there are two numbers in an array that sum up to a target value.
+Input: [1, 2, 3, 4, 5], target = 9
+Output: true (because 4 + 5 = 9)
+Reverse an Integer
+
+Write a function to reverse the digits of an integer.
+Input: 12345
+Output: 54321
+Consider handling edge cases like negative numbers.
+Find the Duplicate Number
+
+Given an array of integers, find the duplicate number. Assume there is only one duplicate.
+Input: [1, 2, 3, 4, 2]
+Output: 2
+Remove Duplicates from Sorted Array
+
+Given a sorted array, remove the duplicates in-place and return the new length.
+Input: [1, 1, 2, 2, 3]
+Output: 3 (The modified array would be [1, 2, 3])
+Find Missing Number in an Array
+
+Given an array containing n distinct numbers taken from the range 1 to n + 1, find the one number that is missing.
+Input: [1, 2, 4, 5]
+Output: 3
+Intermediate Level Coding Questions
+Merge Two Sorted Arrays
+
+Write a function to merge two sorted arrays into one sorted array.
+Input: [1, 3, 5], [2, 4, 6]
+Output: [1, 2, 3, 4, 5, 6]
+Find the Kth Largest Element in an Array
+
+Write a function to find the kth largest element in an unsorted array.
+Input: [3, 2, 1, 5, 6, 4], k = 2
+Output: 5 (the 2nd largest element)
+Two Sum Problem
+
+Given an array of integers, return the indices of the two numbers that add up to a specific target.
+Input: [2, 7, 11, 15], target = 9
+Output: [0, 1] (because 2 + 7 = 9)
+Longest Substring Without Repeating Characters
+
+Write a function to find the length of the longest substring without repeating characters.
+Input: "abcabcbb"
+Output: 3 (the longest substring is "abc")
+Sort an Array Using QuickSort
+
+Write a function to sort an array using the QuickSort algorithm.
+Input: [10, 7, 8, 9, 1, 5]
+Output: [1, 5, 7, 8, 9, 10]
+Find Common Elements in Two Arrays
+
+Write a function to find the common elements between two unsorted arrays.
+Input: [1, 2, 3, 4], [2, 4, 5]
+Output: [2, 4]
+Move Zeroes in an Array
+
+Write a function to move all zeroes in an array to the end without changing the order of non-zero elements.
+Input: [0, 1, 0, 3, 12]
+Output: [1, 3, 12, 0, 0]
+Rotate an NxN Matrix 90 Degrees
+
+Write a function to rotate a given NxN matrix by 90 degrees in place.
+Input:
+csharp
+Copy
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+Output:
+csharp
+Copy
+[
+  [7, 4, 1],
+  [8, 5, 2],
+  [9, 6, 3]
+]
+Check if a Linked List is a Palindrome
+
+Given a singly linked list, determine if it is a palindrome.
+Input: 1 -> 2 -> 3 -> 2 -> 1
+Output: true
+Find the Missing Number in a Sequence
+
+Given an array with integers from 1 to n, one number is missing. Find the missing number without sorting the array.
+Input: [1, 2, 3, 5]
+Output: 4
+Bonus: Problem Solving and Algorithm Design
+Design a LRU Cache
+
+Design and implement an LRU (Least Recently Used) cache with the following methods:
+get(key)
+put(key, value)
+Constraints: O(1) time complexity for both operations.
+Find All Permutations of a String
+
+Write a function to generate all permutations of a given string.
+Input: "abc"
+Output: ["abc", "acb", "bac", "bca", "cab", "cba"]
+Implement a Priority Queue (Heap)
+
+Implement a basic priority queue using a heap data structure.
+Provide the methods insert (to insert an element) and extractMin (to extract the minimum element).
+Find the Longest Common Prefix
+
+Write a function to find the longest common prefix of a list of strings.
+Input: ["flower", "flow", "flight"]
+Output: "fl"
+Preparation Tips
+Practice Coding: Focus on solving problems using Java. Websites like LeetCode, HackerRank, and Codeforces have a large collection of coding challenges.
+Understand Time and Space Complexity: Make sure you can explain the time and space complexity of your solution, as this is often a key point during interviews.
+Write Clean Code: Aim for readable and efficient code. Avoid unnecessary complexity, and make sure to handle edge cases properly.
+Practice Under Time Pressure: In a Karat interview, you may be under a time limit, so practicing solving problems within a set time frame is crucial.

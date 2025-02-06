@@ -1,0 +1,38 @@
+Basic Questions
+
+1. Write a Java program to print "Hello, World!" to the console.
+2. Write a Java method to concatenate two strings.
+3. Write a Java program to check if a string is empty or not.
+4. Write a Java method to convert a string to uppercase.
+5. Write a Java method to convert a string to lowercase.
+6. Write a Java program to compare two strings.
+7. Write a Java method to find the length of a string.
+8. Write a Java method to trim a string.
+9. Write a Java method to replace a substring in a string.
+10. Write a Java program to print the characters of a string.
+
+Intermediate Questions
+
+1. Write a Java method to check if a string is a palindrome or not.
+2. Write a Java method to find the first occurrence of a substring in a string.
+3. Write a Java method to find the last occurrence of a substring in a string.
+4. Write a Java program to split a string into an array of substrings.
+5. Write a Java method to join an array of strings into a single string.
+6. Write a Java program to check if a string contains a specific character or not.
+7. Write a Java method to find the index of a specific character in a string.
+8. Write a Java method to remove a specific character from a string.
+9. Write a Java program to count the occurrences of a specific character in a string.
+10. Write a Java method to check if a string is a valid email address or not.
+
+More Intermediate Questions
+
+1. Write a Java program to validate a password (should contain at least one uppercase letter, one lowercase letter, one digit, and one special character).
+2. Write a Java method to generate a random password of a given length.
+3. Write a Java program to check if a string is a valid phone number or not.
+4. Write a Java method to extract the domain name from an email address.
+5. Write a Java program to check if a string is a valid IP address or not.
+6. Write a Java method to convert a string to a hexadecimal string.
+7. Write a Java method to convert a hexadecimal string to a string.
+8. Write a Java program to encode a string using Base64 encoding.
+9. Write a Java method to decode a Base64 encoded string.
+10. Write a Java program to check if a string is a valid JSON string or not.

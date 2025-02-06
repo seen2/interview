@@ -1,0 +1,38 @@
+Basic Questions
+
+1. Write a Java program to create a simple class and object.
+2. Write a Java method to demonstrate encapsulation.
+3. Write a Java program to show inheritance.
+4. Write a Java method to demonstrate polymorphism.
+5. Write a Java program to create an abstract class.
+6. Write a Java method to create an interface.
+7. Write a Java program to demonstrate method overriding.
+8. Write a Java method to demonstrate method overloading.
+9. Write a Java program to create a nested class.
+10. Write a Java method to demonstrate constructor chaining.
+
+Intermediate Questions
+
+1. Write a Java program to create a class hierarchy.
+2. Write a Java method to demonstrate multiple inheritance using interfaces.
+3. Write a Java program to create a singleton class.
+4. Write a Java method to demonstrate factory pattern.
+5. Write a Java program to create a class with static and non-static members.
+6. Write a Java method to demonstrate composition.
+7. Write a Java program to create a class with inner classes.
+8. Write a Java method to demonstrate abstraction.
+9. Write a Java program to create a class with abstract and concrete methods.
+10. Write a Java method to demonstrate dependency injection.
+
+More Intermediate Questions
+
+1. Write a Java program to create a class with generics.
+2. Write a Java method to demonstrate reflection.
+3. Write a Java program to create a class with annotations.
+4. Write a Java method to demonstrate aspect-oriented programming (AOP).
+5. Write a Java program to create a class with multi-threading.
+6. Write a Java method to demonstrate synchronization.
+7. Write a Java program to create a class with serialization.
+8. Write a Java method to demonstrate deserialization.
+9. Write a Java program to create a class with networking.
+10. Write a Java method to demonstrate socket programming.
