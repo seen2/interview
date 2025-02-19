@@ -7,11 +7,11 @@ class Node {
 
 class LinkedList {
   len = 0;
-  last = null;
+  tail = null;
   head = null;
   constructor(data) {
     this.head = new Node(data, null);
-    this.last = this.head;
+    this.tail = this.head;
     this.len++;
   }
   addFirst(data) {
@@ -20,8 +20,8 @@ class LinkedList {
     this.len++;
   }
   addLast(data) {
-    this.last.next = new Node(data, null);
-    this.last = this.last.next;
+    this.tail.next = new Node(data, null);
+    this.tail = this.tail.next;
     this.len++;
   }
   addNth(data, n) {
@@ -29,7 +29,7 @@ class LinkedList {
       this.addFirst(data);
     } else if (n == this.len - 1) {
       this.addLast(data);
-    } else if(n>0 && n<this.len-1){
+    } else if (n > 0 && n < this.len - 1) {
       let nthNode = this.head;
       while (n > 1) {
         nthNode = nthNode.next;
@@ -38,7 +38,7 @@ class LinkedList {
       const temp = nthNode.next;
       nthNode.next = new Node(data, temp);
       this.len++;
-    }else{
+    } else {
       console.error("Out of bound");
     }
   }
@@ -46,9 +46,36 @@ class LinkedList {
     let i = 0;
     let node = this.head;
     while (i < this.len) {
-      console.log(i,"-->",node.data);
+      console.log(i, "-->", node.data);
       node = node.next;
       i++;
+    }
+  }
+  deleteFirst() {
+    const { data } = this.head;
+    this.head = this.head.next;
+    this.len--;
+    return data;
+  }
+  deleteLast() {
+    console.error("Not valid operation in singly linked list");
+  }
+  deleteNth(n) {
+    if (n == 0) {
+      return this.deleteFirst();
+    } else if (n >= 0 && n < this.len) {
+      let nthNode = this.head;
+      while (n > 0) {
+        nthNode = nthNode.next;
+        n--;
+      }
+      const { data } = nthNode.next;
+      nthNode.next = nthNode.next.next;
+      this.len--;
+      return data;
+    } else {
+      console.error("Out of Bound");
+      return null;
     }
   }
 }
@@ -70,9 +97,13 @@ list.show();
 console.log("--------------------");
 list.addLast(7);
 list.show();
-console.log("-----------Check---------");
-list.addNth(-1,0);
-list.addNth(9,list.len-1);
+list.addNth(-1, 0);
+list.addNth(8, list.len - 1);
 list.show();
 console.log(list.len);
-list.addNth(10,list.len);
+list.addNth(10, list.len);
+console.log("-----------Check---------");
+console.log(list.deleteFirst());
+console.log(list.deleteLast());
+console.log(list.deleteNth(6));
+list.show();
