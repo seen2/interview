@@ -1,11 +1,11 @@
-class Node {
+export class Node {
   constructor(data, next) {
     this.data = data;
     this.next = next;
   }
 }
 
-class LinkedList {
+export class LinkedList {
   len = 0;
   tail = null;
   head = null;
@@ -65,6 +65,7 @@ class LinkedList {
       return this.deleteFirst();
     } else if (n >= 0 && n < this.len) {
       let nthNode = this.head;
+      //we can also check if node.next!=null
       while (n > 0) {
         nthNode = nthNode.next;
         n--;
