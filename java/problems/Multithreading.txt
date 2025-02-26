@@ -1,0 +1,39 @@
+Basic Questions
+
+1. Write a Java program to create and start a thread.
+2. Write a Java method to demonstrate thread synchronization.
+3. Write a Java program to create a thread using Runnable interface.
+4. Write a Java method to demonstrate thread communication using wait() and notify().
+5. Write a Java program to create multiple threads and demonstrate thread interleaving.
+6. Write a Java method to demonstrate thread priority.
+7. Write a Java program to create a daemon thread.
+8. Write a Java method to demonstrate thread join.
+9. Write a Java program to create a thread pool.
+10. Write a Java method to demonstrate thread local variables.
+
+Intermediate Questions
+
+1. Write a Java program to demonstrate deadlock.
+2. Write a Java method to demonstrate livelock.
+3. Write a Java program to demonstrate starvation.
+4. Write a Java method to demonstrate thread safety using atomic variables.
+5. Write a Java program to demonstrate thread safety using locks.
+6. Write a Java method to demonstrate concurrent collections.
+7. Write a Java program to demonstrate concurrent execution using ExecutorService.
+8. Write a Java method to demonstrate thread safety using synchronized blocks.
+9. Write a Java program to demonstrate thread safety using volatile variables.
+10. Write a Java method to demonstrate thread safety using concurrent utilities.
+
+More Intermediate Questions
+
+1. Write a Java program to demonstrate parallel processing using ForkJoinPool.
+2. Write a Java method to demonstrate concurrent execution using CompletableFuture.
+3. Write a Java program to demonstrate thread safety using StampedLock.
+4. Write a Java method to demonstrate concurrent collections using ConcurrentHashMap.
+5. Write a Java program to demonstrate thread safety using ReentrantLock.
+6. Write a Java method to demonstrate concurrent execution using ParallelStream.
+7. Write a Java program to demonstrate thread safety using AtomicReference.
+8. Write a Java method to demonstrate concurrent collections using CopyOnWriteArrayList.
+9. Write a Java program to demonstrate thread safety using Semaphore.
+10. Write a Java method to demonstrate concurrent execution using ThreadFactory.
+
