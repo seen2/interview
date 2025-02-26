@@ -15,7 +15,66 @@ Serialization Deserialization
 DateTime API
 
 
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------JAVA------------------------------------------------------------------------------------------------
+PAIE --- Done
+String buffer and string memory -- done
+Sorting -- done 
+Generics -- done
+Default interface -- done
+Collection API --done 
+Threads / concurrency / thread safe / volatile variable ---done
+Marker interface / Serialisation  --done
+Stream, map set and array list sorting -- done
+Intermidate and terminal operations -- done
+Hashmap internal collision -- done
+Design pattern 
+Vector 
+Lock synchronised and interface concurrent hashmap 
+
+
+
+
+-------------------------------------------------------------------------SPRING BOOT----------------------------------------------------------------------------------------------
+Actuator --done
+Checking logs in splunk 
+Vertical scaling and horizontal scaling --done
+application.properties vs application.yml  use it. --- done
+Global exceptions handling --done 
+Transaction handling 
+Cqrs/ saga design pattern 
+AOP
+Authorization --done
+Custom annotation 
+Handling Beans
+Scopes and custom scope 
+Indexes
+
+------------------------------------------------------------------------Microservices----------------------------------------------------------------------------------------
+API gateway , load balancer, service registery, fault tolerant 
+Fault tolerant histrics
+Loosely coupled  --done
+Synchronous vs asynchronous communication --done
+Service registery vs service discovery -- done 
+
+
+
+
+
+
+
+
+-----------------------------------------------------NOSQL, SQL---------------------------------------------------------------------------------------------------------------
+
+Managing schema in requirement change 
+Joins
+
+Miscellaneous 
+
+Most used annotation 
+Loosely coupled and tightly coupled
+
+
+----------------------------------------------------------------EXC--------------------------------------------------------
 Filter and Sort: Given a list of integers, write a Java program using streams to filter out numbers greater than 10 and sort the remaining numbers in ascending order.
 Count Occurrences: Write a Java program that takes a string and counts the occurrence of each character using streams.
 Employee Salary: Given a list of employees with their names and salaries, write a program to find the employee with the highest salary using the Stream API.
