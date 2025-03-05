@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 // package problems;
 
-public class Main {
+public class StreamExc {
 
   public static void main(String[] args) {
 

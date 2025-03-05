@@ -1,4 +1,4 @@
-function countingSort(list) {
+function countingHashSort(list) {
   let sortedList = list.map((e) => 0);
   list.forEach((e) => {
     let b = e % 10;
@@ -12,16 +12,15 @@ function countingSort(list) {
       }
     }
   });
-  // console.log(sortedList);
-  const bList = sortedList.flat();
+  list = sortedList.flat().filter(e=>!!e);
   sortedList = list.map((e) => 0);
-  bList.forEach((e) => {
+  list.forEach((e) => {
     let b = e % 100;
     if (!sortedList[b]) {
       sortedList[b] = e;
     } else {
       if (sortedList[b].length) {
-        sortedList[b] = [...sortedList[b], e];
+        sortedList.push(e);
       } else {
         sortedList[b] = [sortedList[b], e];
       }
@@ -29,6 +28,7 @@ function countingSort(list) {
   });
   return sortedList;
 }
-const list = [32, 3, 44, 42, 22];
+let list = [32, 3, 44, 42, 22];
+list = [32, 33, 14, 52, 22,11,34,55,52,56];
 
-console.log(countingSort(list).filter((e) => !!e));
+console.log(countingHashSort(list).filter((e) => !!e).flat());
