@@ -43,13 +43,13 @@ public class Exc {
     //groupby department
     //flat map internally can map and retrun with orignal object and from nested streamed object array 
 
-    Map<String,List<String>> test = persons.stream()
+    Map<String,List<String>> personByDepartment = persons.stream()
         .flatMap(person -> Arrays.stream(person.getDepartments())
             .filter(department->!department.isEmpty())
             .map(department -> new AbstractMap.SimpleEntry<>(department, person)))
         .collect(
             Collectors.groupingBy(Map.Entry::getKey, Collectors.mapping(map->map.getValue().getName(), Collectors.toList())));
-    System.out.println(test);
+    System.out.println("personByDepartment: "+personByDepartment);
     String str="abcccddddeaabbbdd";
     Map<String,Long> charCount=Arrays.stream(str.split("")).collect(Collectors.groupingBy(e->e,Collectors.counting()));
     System.out.println(charCount);
@@ -59,7 +59,13 @@ public class Exc {
     .flatMap(person->Arrays.stream(person.getDepartments()).map(department->new AbstractMap.SimpleEntry<>(department,person)))
     .collect(Collectors.groupingBy(e->e.getKey(),Collectors.counting()));
     System.out.println(countByDepartment);
-    persons.stream().flatMap(person->Arrays.stream(person.getDepartments()));
+    // persons.stream().flatMap(person->Arrays.stream(person.getDepartments()));
+
+    // TODO: personByDepartment
+    // TODO: charCount
+    // TODO: numCount
+    // TODO: countByDepartment
+
 
   }
 
