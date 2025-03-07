@@ -61,10 +61,7 @@ public class Exc {
     System.out.println(countByDepartment);
     // persons.stream().flatMap(person->Arrays.stream(person.getDepartments()));
 
-    // TODO: personByDepartment
-    // TODO: charCount
-    // TODO: numCount
-    // TODO: countByDepartment
+    
 
 
   }
