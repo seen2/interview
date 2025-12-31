@@ -1,4 +1,5 @@
 
+import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,7 +11,7 @@ public class Exc {
 
   public static void main(String[] args) {
     
-    // TODO: Create simple Spring CRUD App -WIP
+    // TODO: Create simple Spring CRUD App -DONE
 
 
     // TODO: sorting -> comparator, comparable, stream -- Done
@@ -49,7 +50,15 @@ public class Exc {
     // TODO: charCount
     // TODO: numCount
     // TODO: countByDepartment
-
+    // TODO: employeeByDepartment
+    persons.stream()
+    .flatMap(person->person.getProjects().stream()
+      .map(project->new AbstractMap.SimpleEntry<>(project,person)))
+    .collect(Collectors.groupingBy(el->el.getKey(),Collectors.mapping(person->person.getValue().getName(), Collectors.toList())));
+    persons.stream()
+    .flatMap(person->person.getProjects().stream()
+      .map(project->new AbstractMap.SimpleEntry<>(project,persons)))
+    .collect(Collectors.groupingBy(el->el.getKey(),Collectors.counting()));
     
 
   }
